@@ -63,12 +63,5 @@ public class PropostaException extends Exception {}
                     delete NovaProposta;
                     throw new PropostaException('Proposta não criada porque o Valor da proposta é menor ou igual a 0.');
                 }
-
-                
-               
-
-            
-
         }
-
 }
